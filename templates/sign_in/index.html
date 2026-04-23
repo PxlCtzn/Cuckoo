@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script defer src="../_common/js/theme.js"></script>
+    <link href="../_common/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <a href="#content" class="sr-only">Skip to main content</a>
+
+    <header>
+      <span class="brand--container">
+        <img src="../_common/logo.svg" alt="" class="brand-logo">
+        <span class="brand-name">Cuckoo</span>
+      </span>
+
+      <nav>
+        <ul>
+          <li><a href="../sign_in/index.html" class="link-active">Sign in</a></li>
+          <li><a href="../sign_up/index.html">Sign up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="text-center">Welcome Back</h1>
+      <p class="text-center">Enter your email and password to access your account.</p>
+
+      <form id="login">
+        <div class="form--row">
+          <label for="login_email">Email</label>
+          <input type="email" name="login_email" id="login_email" value="" required="true">
+        </div>
+
+        <div class="form--row">
+          <label for="login_pwd">Password</label>
+          <input type="password" name="login_pwd" id="login_pwd" value="" required="true">
+        </div>
+
+        <span class="form--row form--inputs">
+          <input type="submit" name="login_submit" value="Login"/>
+          <input type="reset" name="login_reset" value="Reset"/>
+        </span>
+      </form>
+
+      <p class="text-center">Don't have an account ? <a href="../sign_up/index.html">Sign up</a>.</p>
+      <p class="text-center">Forgot your password ? <a href="../forgot_password/index.html">Get a new one</a>.</p>
+    </main>
+
+    <footer>
+      <p class="text-center">Made with love.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+/* ROSE PINE */
+[data-theme="dark"]{
+  --base: 249deg 22% 12%;
+  --surface: 247deg 23% 15%;
+  --overlay: 248deg 25% 18%;
+  --muted: 249deg 12% 47%;
+  --subtle: 248deg 15% 61%;
+  --text: 245deg 50% 91%;
+  --love: 343deg 76% 68%;
+  --gold: 35deg 88% 72%;
+  --rose: 2deg 55% 83%;
+  --pine: 197deg 49% 38%;
+  --foam: 189deg 43% 73%;
+  --iris: 267deg 57% 78%;
+  --highlight-low: 244deg 18% 15%;
+  --highlight-med: 249deg 15% 28%;
+  --highlight-high: 248deg 13% 36%;
+}
+
+/* ROSE PINE DAWN*/
+[data-theme="light"]{
+  --base:    #faf4ed;
+  --surface: #fffaf3;
+  --overlay: #f2e9e1;
+  --muted: #9893a5;
+  --subtle: #797593;
+  --text: #575279;
+  --love: #b4637a;
+  --gold: #ea9d34;
+  --rose: #d7827e;
+  --pine: #286983;
+  --foam: #56949f;
+  --iris: #907aa9;
+  --highlight-low: #f4ede8;
+  --highlight-med: #dfdad9;
+  --highlight-high: #cecacd;
+}
+
+:root{
+  /* Background Colors */
+  --body-background-color: hsl(var(--base)); /* General Background */
+  --main-background-color: hsl(var(--surface));
+  /* Text Colors */
+  --color: hsl(var(--text));
+  --link-color: hsl(var(--iris));
+
+  /* Input Colors */
+  --input-color: hsl(var(--text));
+  --input-background-color: hsl(var(--overlay));
+  --input-border-color: hsl(var(--muted) / .2);
+  --input-border-color-hover: hsl(var(--muted) / 1);
+  --input-border-color-active: var(--input-border-color-hover);
+}
